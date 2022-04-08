@@ -1,0 +1,1 @@
+cmd_/workspace/src/02_modules/queue_module/queue_module.o := /buildroot/output/host/usr/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf   -r -o /workspace/src/02_modules/queue_module/queue_module.o /workspace/src/02_modules/queue_module/queue.o

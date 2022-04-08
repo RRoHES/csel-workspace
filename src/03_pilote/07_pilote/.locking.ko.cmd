@@ -1,0 +1,1 @@
+cmd_/workspace/src/03_pilote/07_pilote/locking.ko := /buildroot/output/host/usr/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /workspace/src/03_pilote/07_pilote/locking.ko /workspace/src/03_pilote/07_pilote/locking.o /workspace/src/03_pilote/07_pilote/locking.mod.o;  true

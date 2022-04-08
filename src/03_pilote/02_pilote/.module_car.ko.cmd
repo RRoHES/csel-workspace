@@ -1,0 +1,1 @@
+cmd_/workspace/src/03_pilote/02_pilote/module_car.ko := /buildroot/output/host/usr/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /workspace/src/03_pilote/02_pilote/module_car.ko /workspace/src/03_pilote/02_pilote/module_car.o /workspace/src/03_pilote/02_pilote/module_car.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/workspace/src/02_module/02_memory_module/modules.order := {   echo /workspace/src/02_module/02_memory_module/memory_module.ko; :; } | awk '!x[$$0]++' - > /workspace/src/02_module/02_memory_module/modules.order
