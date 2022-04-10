@@ -1,1 +1,0 @@
-cmd_/workspace/src/02_modules/iomem_module/Module.symvers := sed 's/\.ko$$/\.o/' /workspace/src/02_modules/iomem_module/modules.order | scripts/mod/modpost    -o /workspace/src/02_modules/iomem_module/Module.symvers -e -i Module.symvers   -T -

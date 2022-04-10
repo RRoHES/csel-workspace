@@ -1,1 +1,0 @@
-cmd_/workspace/src/03_pilote/05_pilote/Module.symvers := sed 's/\.ko$$/\.o/' /workspace/src/03_pilote/05_pilote/modules.order | scripts/mod/modpost    -o /workspace/src/03_pilote/05_pilote/Module.symvers -e -i Module.symvers   -T -

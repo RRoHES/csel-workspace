@@ -1,1 +1,0 @@
-cmd_/workspace/src/03_pilote/05_pilote/driver_05.o := /buildroot/output/host/usr/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf   -r -o /workspace/src/03_pilote/05_pilote/driver_05.o /workspace/src/03_pilote/05_pilote/driver_05_code.o

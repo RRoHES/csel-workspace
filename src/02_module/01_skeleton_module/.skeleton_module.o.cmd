@@ -1,1 +1,0 @@
-cmd_/workspace/src/02_module/01_skeleton_module/skeleton_module.o := /buildroot/output/host/usr/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf   -r -o /workspace/src/02_module/01_skeleton_module/skeleton_module.o /workspace/src/02_module/01_skeleton_module/skeleton.o

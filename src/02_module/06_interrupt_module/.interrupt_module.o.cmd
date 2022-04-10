@@ -1,1 +1,0 @@
-cmd_/workspace/src/02_modules/06_interrupt_module/interrupt_module.o := /buildroot/output/host/usr/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf   -r -o /workspace/src/02_modules/06_interrupt_module/interrupt_module.o /workspace/src/02_modules/06_interrupt_module/interrupt.o

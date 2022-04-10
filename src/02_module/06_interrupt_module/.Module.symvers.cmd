@@ -1,1 +1,0 @@
-cmd_/workspace/src/02_modules/06_interrupt_module/Module.symvers := sed 's/\.ko$$/\.o/' /workspace/src/02_modules/06_interrupt_module/modules.order | scripts/mod/modpost    -o /workspace/src/02_modules/06_interrupt_module/Module.symvers -e -i Module.symvers   -T -

@@ -1,1 +1,0 @@
-cmd_/workspace/src/02_module/01_skeleton_module/skeleton_module.mod := { echo  /workspace/src/02_module/01_skeleton_module/skeleton.o;  echo; } > /workspace/src/02_module/01_skeleton_module/skeleton_module.mod
