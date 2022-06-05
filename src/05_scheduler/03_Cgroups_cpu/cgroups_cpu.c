@@ -22,9 +22,7 @@ int main()
 {
 	// Create new childs process
 	pid_t pid1 = fork();
-    // Executed by parent and first child
-	pid_t pid2 = fork();
-	if (pid1 > 0 && pid2 > 0)
+	if (pid1 > 0)
 	{
 		// Parent code
 		while (running == 1);
@@ -35,17 +33,11 @@ int main()
 		
 		return EXIT_SUCCESS;
 	}
-    // First and second child 
-	else if ((pid1 == 0 && pid2 > 0) || (pid1 > 0 && pid2 == 0))
+    // Child 
+	else
 	{
 		// Child's code
 		while (running == 1);
-		exit(0);
-	}
-    // Third child
-	else
-	{
-		// Would overload ssh if active on 4 cores
 		exit(0);
 	}
 
