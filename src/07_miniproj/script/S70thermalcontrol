@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+
+case "$1" in
+  start)
+  	insmod /opt/thermal_control.ko
+	/opt/thermal_daemon &
+	;;
+  stop)
+  	killall /opt/thermal_daemon
+  	rmmod thermal_control
+	;;
+  restart|reload)
+  	killall /opt/thermal_daemon
+  	rmmod thermal_control
+  	insmod /opt/thermal_control.ko
+	/opt/thermal_daemon &
+	;;
+  *)
+	echo "Usage: $0 {start|stop|restart}"
+	exit 1
+esac
+
+exit $?
+
