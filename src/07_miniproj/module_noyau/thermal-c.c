@@ -32,13 +32,13 @@
 #define AUTO_SPEED_REFRESH_RATE_MS  1000
 #define LED_SPEED_REFRESH_RATE_MS   500
 #define LED_GPIO                    10
-#define FREQ_MIN                    99
+#define FREQ_MIN                    0
 #define FREQ_MAX                    99
 
 // Speed tables
 typedef enum                 {SPEED_MIN, SPEED_1, SPEED_2, SPEED_MAX} speed_value; // 4 thresholds for frequency
 const int speed_table[]    = {2,         5,       10,      20};                    // Hz
-const int temp_threshold[] = {35000,     40000,   45000}; // to adjust with final value 35k, 40k and 45k
+const int temp_threshold[] = {35000,     40000,   45000}; // is temperature in 'C * 1000
 
 // Initial values
 speed_value fan_speed   = SPEED_MIN;
